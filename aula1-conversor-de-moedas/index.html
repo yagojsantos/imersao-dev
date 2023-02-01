@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="page-title">
+              Conversor de moedas
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+            <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+        </a>
+        <div class="conversao">
+            <select name="moedas" id="lista-moedas">
+                <option  selected disabled>Selecione uma opção</option>
+                <option value="dolar">Dólar</option>
+                <option value="euro"  >Euro</option>
+                <option value="libra-esterlina">Libra Esterlina</option>
+            </select>
+            <input type="text" name="valor" class="input-padrao" id="valor-moeda" placeholder="Moeda..." required>
+            <input type="button" value="Converter" class="input-padrao" id="btn-converter">
+        </div>
+    </main>
+   <script>conterMoeda()</script>
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  img {
+    max-height: 250px;
+  }
+  /* meu código */
+  *{
+    box-sizing: border-box;
+  }
+  .conversao{
+    height: 200px;
+    margin: 10px 0;    
+  }
+  .conversao>*{
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .input-padrao{
+    width:100px;
+    margin: 15px 0px 0px 5px;
+    border: 2px solid #000000;
+  }
+  #lista-moedas{ 
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    padding: 4px;
+    background-color: #2573d5;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 3px 2px 1px  white;
+  }
+  #lista-moedas:hover, #btn-converter:hover{
+    background-color: #4896ff;
+    cursor: pointer;
+  }
+  #lista-moedas>option{
+    font-size: 0.8em;  
+    color: #2573d5;
+    background-color: #ffffff;
+  }
+  #valor-moeda{
+    line-height: 1.4em;
+    padding: 2px 2px 2px 12px;
+    border-radius: 5px;
+  }
+  #btn-converter{
+    line-height: 1.6em;
+    padding: 2px;
+    color: #ffffff;
+    background-color: #2573d5;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 15px;
+  }

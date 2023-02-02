@@ -3,16 +3,14 @@ function mentalizar(){
     const btnVerificar = document.querySelector("#btn-verificar");
     const divHistorico = document.querySelector(".historico");
     const numSecreto = parseInt(Math.random()*1000);
-    const maximoTentativas = 2;
+    const maximoTentativas = 18;
     let contTentativa = 0 ;
 
-
-    alert(`${numSecreto}`);
-
     btnVerificar.addEventListener("click",()=>{
-        let valorNumPensado = inputNumPensado.value;
+        let valorNumPensado = parseInt(inputNumPensado.value);
         let saida = "";
-        if(valorNumPensado!=NaN && valorNumPensado!=null){
+
+        if(isNaN(valorNumPensado)==false){
             contTentativa++;
 
             if (contTentativa<maximoTentativas+1) {
@@ -24,9 +22,16 @@ function mentalizar(){
                 }else{
                     saida=`Parabéns, você acertou!\nTetativa n° ${contTentativa}`;
                 }
+                //limpando campo de tentativa
                 inputNumPensado.value="";
+
+                //saida após processamento
                 alert(saida);
                 
+                // exibição dos números tentados
+                divHistorico.innerHTML = divHistorico.innerHTML+`<p>Tentativa n° ${contTentativa} - ${valorNumPensado}</p>`;
+
+
             }else{
                 alert(`Você excedeu o número de tentativas :/\nO número era: ${numSecreto}`);
                 //forçando o recarregamento da página

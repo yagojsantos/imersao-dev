@@ -33,7 +33,7 @@ function conterMoeda(){
     btnConverter.addEventListener("click",()=>{
         let saida = "";
         quantiaMoeda = parseFloat(valorMoeda.value);
-        if(opcaoListaMoeda!=null && quantiaMoeda!=NaN && quantiaMoeda!=null && quantiaMoeda>0){
+        if(opcaoListaMoeda!=null && isNaN(quantiaMoeda)==false && quantiaMoeda>0){
             let valorConvertido = cotacao*quantiaMoeda;
             saida = `A converção em real é igual à: R$${valorConvertido.toFixed(2)}\nÚltima data de atualização das cotações: 01/02/2023`;
             // limpando campo de texto e resetando a lista para a primeira opção

@@ -3,6 +3,7 @@
 <div align="center">
 
   <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" alt="Logo da Imersão Dev">
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg#vitrinedev" width="0px" alt="Logo da Imersão Dev">
   
 </div>
 

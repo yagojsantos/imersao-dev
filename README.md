@@ -30,7 +30,7 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
     <div>
     <p><strong>Proposta: </strong>Criar um conversor de moedas onde é possível transformar em real, um produto que esteja com o preço em dólar!</p>
     <p><strong>Alterações: </strong>A fim de tornar o projeto mais completo e dinâmico, implementei um input do tipo texto para a coleta de informação ao invés de utilizar o prompt, conforme a aula. Também incluí mais opções de moedas a serem convertidas, através de um drop-down list, e adicionei verificações de preenchimento para que o programa tenha o devido funcionamento quando o botão “Converter” for ativado.</p>
-    <p><strong>Deploy: </strong>https://conversor-de-moedas-yagojsantos.netlify.app/</p>
+    <p><strong>Deploy: </strong><a href="https://conversor-de-moedas-yagojsantos.netlify.app/">Conversor de Moedas</a></p>
     </div>
    </div>
   <div style="margin:10px 0">
@@ -42,7 +42,7 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
     Além de dar o retorno caso a tentativa  não seja válida, o software não permite que esse chute contabilize no número total de chances (18). 
     Caso a informação inserida seja validada, o usuário terá acesso a dados importantes para suas próximas decisões, tais como: se o seu palpite está acima ou abaixo do objetivo, quantos chutes já foram e um histórico de palpites anteriores.
     </p>
-    <p><strong>Deploy: </strong>https://jogo-mentalista-yagojsantos.netlify.app/</p>
+    <p><strong>Deploy: </strong><a href="https://jogo-mentalista-yagojsantos.netlify.app/">O Mentalista</a></p>
     </div>
    </div>
    <div style="margin:10px 0">
@@ -53,7 +53,7 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
     <p><strong>Alterações: </strong>Incluí inputs do tipo text e button para que seja possível a inserção de novos links através da interface, não somente por código. 
     O programa verifica se o campo não está vazio antes de executar o cadastro do novo cartaz, além de não permitir a inserção de URLs repetidas.
     </p>
-    <p><strong>Deploy: </strong>https://aluraflix-yagojsantos.netlify.app/</p>
+    <p><strong>Deploy: </strong><a href="https://aluraflix-yagojsantos.netlify.app/">Aluraflix</a></p>
     </div>
    </div>
 

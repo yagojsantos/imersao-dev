@@ -32,7 +32,29 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
     <p><strong>Deploy: </strong>https://conversor-de-moedas-yagojsantos.netlify.app/</p>
     </div>
    </div>
-  
+  <div style="margin:10px 0">
+    <h3 align="center">Aula 2</h3>
+    <div><img src="https://github.com/yagojsantos/imersao-dev/blob/main/aula2-jogo-mentalista/O%20Mentalista%20yagojsantos.gif" width="100%"></div>
+    <div>
+    <p><strong>Proposta: </strong>Criar um jogo de adivinhação onde o programa escolhe um número aleatório e o usuário tenta acertar.</p>
+    <p><strong>Alterações: </strong>Implementei inputs do tipo text e button para interação com usuário. O programa verifica se o usuário preencheu o campo e se a informação inserida é do tipo numérico. 
+    Além de dar o retorno caso a tentativa  não seja válida, o software não permite que esse chute contabilize no número total de chances (18). 
+    Caso a informação inserida seja validada, o usuário terá acesso a dados importantes para suas próximas decisões, tais como: se o seu palpite está acima ou abaixo do objetivo, quantos chutes já foram e um histórico de palpites anteriores.
+    </p>
+    <p><strong>Deploy: </strong>https://jogo-mentalista-yagojsantos.netlify.app/</p>
+    </div>
+   </div>
+   <div style="margin:10px 0">
+    <h3 align="center">Aula 3</h3>
+    <div><img src="https://github.com/yagojsantos/imersao-dev/blob/main/aula3-aluraflix/Aluraflix%20yagojsantos.gif" width="100%"></div>
+    <div>
+    <p><strong>Proposta: </strong>Criar uma lista com o filme preferido de cada pessoa e exibir os pôsteres de cada um na tela do navegador, seguindo as boas práticas de programação.</p>
+    <p><strong>Alterações: </strong>Incluí inputs do tipo text e button para que seja possível a inserção de novos links através da interface, não somente por código. 
+    O programa verifica se o campo não está vazio antes de executar o cadastro do novo cartaz, além de não permitir a inserção de URLs repetidas.
+    </p>
+    <p><strong>Deploy: </strong>https://aluraflix-yagojsantos.netlify.app/</p>
+    </div>
+   </div>
 
 
    

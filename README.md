@@ -24,8 +24,9 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
 ## Projetos
 
    <div style="margin:10px 0">
-    <div style=" width:40%;display:inline-block"><img src="https://github.com/yagojsantos/imersao-dev/blob/main/aula1-conversor-de-moedas/Conversor%20de%20Moedas%20yagojsantos.gif"></div><div style=" width:60%; display:inline-block">
     <h3 align="center">Aula 1</h3>
+    <div><img src="https://github.com/yagojsantos/imersao-dev/blob/main/aula1-conversor-de-moedas/Conversor%20de%20Moedas%20yagojsantos.gif" width="100%"></div>
+    <div>
     <p><strong>Proposta: </strong>Criar um conversor de moedas onde é possível transformar em real, um produto que esteja com o preço em dólar!</p>
     <p><strong>Alterações: </strong>A fim de tornar o projeto mais completo e dinâmico, implementei um input do tipo texto para a coleta de informação ao invés de utilizar o prompt, conforme a aula. Também incluí mais opções de moedas a serem convertidas, através de um drop-down list, e adicionei verificações de preenchimento para que o programa tenha o devido funcionamento quando o botão “Converter” for ativado.</p>
     <p><strong>Deploy: </strong>https://conversor-de-moedas-yagojsantos.netlify.app/</p>

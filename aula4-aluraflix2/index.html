@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Aluraflix 2</title>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1 class="page-title">
+            Aluraflix
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+            <p class="page-subtitle">
+            Qual seu filme favorito?
+            </p>
+            <div class="form-wrapper">
+                <label for="nome-filme">Nome: <input type="text" id="nome-filme" name="nome-filme" placeholder="O nome do filme.." required maxlength="20"></label>
+                <label for="filme">Cartaz: <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem" required></label>
+                <label for="trailer-filme">Link do Trailer: <input type="text" id="trailer-filme" name="trailer-filme" placeholder="Insira endereço do trailer do filme" required></label>
+                <button id="btn-adicionar-filme">Adicionar Filme</button>
+            </div>
+        </div>
+        <div id="lista-filmes"></div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+    </main>
+    <script>adicionarFilme();</script>
+</body>
+</html>

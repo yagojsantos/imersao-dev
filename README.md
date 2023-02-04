@@ -56,6 +56,18 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
     <p><strong>Deploy: </strong><a href="https://aluraflix-yagojsantos.netlify.app/">Aluraflix</a></p>
     </div>
    </div>
+   <div style="margin:10px 0">
+    <h3 align="center">Aula 4</h3>
+    <div><img src="https://github.com/yagojsantos/imersao-dev/blob/main/aula4-aluraflix2/Aluraflix%202%20yagojsantos.gif" width="100%"></div>
+    <div>
+    <p><strong>Proposta: </strong>Utilizar um input para que a entrada de dados não seja através do código ou console, mas na tela.  Refatorar o projeto da aula anterior para continuar integrando o HTML e o JavaScript, fazendo com que as partes certas do programa funcionem no momento correto.</p>
+    <p><strong>Alterações: </strong>Foi criado os inputs para inserção do nome e link do teaser do filme. O software não executa o cadastro em casos como: todos os campos não estejam preenchidos, a extensão do link do cartaz não seja num formato válido (.png, .jpeg, .jpg), ou se já existe um título cadastrado com o mesmo nome.
+    Um campo e um botão para remoção, também foram elaborados. Antes de executar a exclusão do elemento, o programa verifica se o campo de texto está preenchido e, caso esteja, se existe um filme com o nome desejado.
+    Em todas situações a aplicação dá um retorno ao usuário por meio de um alert.
+    </p>
+    <p><strong>Deploy: </strong><a href="https://aluraflix2-yagojsantos.netlify.app/">Aluraflix 2</a></p>
+    </div>
+   </div>
 
 
    

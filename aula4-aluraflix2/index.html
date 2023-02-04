@@ -18,17 +18,21 @@
             Qual seu filme favorito?
             </p>
             <div class="form-wrapper">
-                <label for="nome-filme">Nome: <input type="text" id="nome-filme" name="nome-filme" placeholder="O nome do filme.." required maxlength="20"></label>
+                <label for="adicionar-filme">Nome: <input type="text" id="adicionar-filme" name="adicionar-filme" placeholder="O nome do filme.." required maxlength="140"></label>
                 <label for="filme">Cartaz: <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem" required></label>
                 <label for="trailer-filme">Link do Trailer: <input type="text" id="trailer-filme" name="trailer-filme" placeholder="Insira endereço do trailer do filme" required></label>
                 <button id="btn-adicionar-filme">Adicionar Filme</button>
             </div>
         </div>
         <div id="lista-filmes"></div>
+        <div class="form-wrapper">
+            <label for="remover-filme">Nome: <input type="text" id="remover-filme" name="remover-filme" placeholder="O nome do filme.." required maxlength="140"></label>
+            <button id="btn-remover-filme">Remover Filme</button>
+        </div>
         <a href="https://alura.com.br/" target="_blank">
-            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
         </a>
     </main>
-    <script>adicionarFilme();</script>
+    <script>gerenciarFilmes();</script>
 </body>
 </html>

@@ -39,12 +39,13 @@ body {
     max-height: 250px;
   }
   #lista-filmes div {
+    vertical-align: top;
     display: inline-block;
     box-sizing: border-box;
     margin: 10px;
-    height: 320px;
+    height: 400px;
     width: 200px;
-    background-color: #da1e26;
+    word-break: break-all; /* propriedade responsável pela quebra de linha*/
   }
   #lista-filmes h4{
     font-size: 16px;

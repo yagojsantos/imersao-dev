@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Tabela de pontos</title>
+</head>
+<body>
+    <main>   
+        <h1>Classificação Alura</h1>
+        <input type="text" name="img-jogador" id="img-jogador" placeholder="Link da imagem do jogar...">
+        <input type="text" name="nome-jogador" id="nome-jogador" placeholder="Player...">
+        <input type="button" value="Adicionar" id="adicionar-jogador" onclick="adicionarJogador()">
+        <table style="width:100%">
+            <thead>
+            <tr>
+                <th>Foto</th>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan="4">Ações</th>
+            </tr>
+            </thead>
+            <tbody id="tabela-jogadores">
+            
+            </tbody>
+        </table>
+    </main>
+    
+</body>
+</html>

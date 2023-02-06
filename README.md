@@ -13,7 +13,7 @@
 
 <div align="center">
 
-![yagojsantos-repo-status](https://img.shields.io/badge/Status-Em_Andamento-lightgrey?style=for-the-badge&logo=headspace&logoColor=yellow&color=lightgrey)
+![yagojsantos-repo-status](https://img.shields.io/badge/Status-Concluído-lightgrey?style=for-the-badge&logo=headspace&logoColor=green&color=lightgrey)
 
 </div>
 
@@ -68,6 +68,21 @@ Os projetos presentes neste repositório são fruto da junção entre a base, fo
     <p><strong>Deploy: </strong><a href="https://aluraflix2-yagojsantos.netlify.app/">Aluraflix 2</a></p>
     </div>
    </div>
+   <div style="margin:10px 0">
+    <h3 align="center">Aula 5 - Final :/</h3>
+    <div><img src="https://github.com/yagojsantos/imersao-dev/blob/main/aula5-tabela-de-pontos/Tabela%20de%20pontos%20yagojsantos.gif" width="100%"></div>
+    <div>
+    <p><strong>Proposta: </strong>Criar uma tabela de classificação, manipular os valores, realizar cálculos, incluir no HTML e aprender o que são objetos no Javascript!</p>
+    <p><strong>Alterações: </strong>Com base nos desafios feitos durante a aula, desenvolvi funcionalidades e verificações importantes para o devido funcionamento do software.
+    Foi incluído dois campos e um novo botão para que seja possível, a inserção de jogadores através da interface do programa, não somente por código. 
+    Há verificações que impedem o cadastro de um novo player nos seguintes casos: o campo de nome e imagem não estejam preenchidos, o link da imagem do jogador não esteja em um formato válido (.png, .jpeg, .jpg).
+    Uma lógica para contabilizar os empates, também foi elaborada. Quando o botão de empate é clicado, a contagem é atualizada para todos os players, independentemente de qual jogador o botão pertence. Essa contagem também é exibida caso um novo usuário seja inserido no meio de um jogo, onde já existe uma quantidade contada, porém, apenas o número de empates é imputado a este jogador, a pontuação não.
+    Por último, mas não menos importante, foi codificado uma opção de zerar a pontuação para cada jogador. 
+    </p>
+    <p><strong>Deploy: </strong><a href="https://tabela-de-pontos-yagojsantos.netlify.app/">Tabela de Pontos</a></p>
+    </div>
+   </div>
+
 
 
    
